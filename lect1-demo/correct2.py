@@ -11,7 +11,7 @@ def calculate_next_line(prev):
 
         # we can also use a second nested while loop to avoid that slightly ugly
         # exit condition in correct.py
-        
+
         # instead of waiting for the number to change and counting how many we saw before then,
         # now we start at the first number and count how many times it happens, then repeat with each
         # successive number, moving left to right
