@@ -49,7 +49,6 @@ def is_palindrome(s):
 def is_palindrome(s):
     i = 0
     j = len(s) - 1  # why len(s) - 1 instead of just len(s)??
-
     # move i and j toward each other, checking that opposite letters match
     while i < j:
         if s[i] != s[j]:
