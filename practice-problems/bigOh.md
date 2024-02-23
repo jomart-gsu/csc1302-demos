@@ -38,7 +38,7 @@ def print_everything_10_times(l):
             print(item)
 ```
 
-## 5
+## 6
 ```
 def range_but_slow_and_bad(n):
     i = 0
@@ -49,7 +49,7 @@ def range_but_slow_and_bad(n):
     return res
 ```
 
-## 6
+## 7
 ```
 def pairs(l):
     res = []
