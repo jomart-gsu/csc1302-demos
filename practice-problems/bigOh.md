@@ -95,7 +95,7 @@ def print_distinct_pairs(l):
 ```
 def a_strange_loop(l):
     res = []
-    i = 0
+    i = 1
     while i < len(l):
         i *= 2
         res.append(l[i])
