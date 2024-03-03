@@ -23,7 +23,7 @@ def pair_intersection(l1, l2, l3, l4):
     for num3 in l3:
         for num4 in l4:
             if (l3, l4) in s:
-                result.add(l3, l4)
+                result.append(l3, l4)
     return result
 ```
 5. Describe the bug in the following snippet of code:
