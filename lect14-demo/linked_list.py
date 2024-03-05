@@ -9,6 +9,25 @@ head.next.next = Node(23, None)
 head.next.next.next = Node(6, None)
 
 
+def print_linked_list(head):
+    while head is not None:
+        print(head.value)
+        head = head.next
+
+def add_to_linked_list(head, value):
+    if head is None:
+        return Node(value, None)
+
+    current = head
+    while current.next is not None:
+        current = current.next
+
+    current.next = Node(value, None)
+
+print_linked_list(head)
+
+
+
 # 5 -> 12 -> 6
 
 def remove(head, val):
@@ -35,6 +54,8 @@ def remove(head, val):
 
 
 remove(head, 23)
+
+
 
 
 
