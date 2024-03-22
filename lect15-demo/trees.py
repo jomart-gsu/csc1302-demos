@@ -57,3 +57,21 @@ def height(root):
     return 1 + max(height(root.left), height(root.right))
 
 print(height(root))
+
+
+
+def search_binary_tree(root, target):
+    if root is None:
+        return False
+    if root.value == target:
+        return True
+    return search_binary_tree(root.left) or search_binary_tree(root.right)
+
+def search_BST(root, target):
+    if root is None:
+        return False
+    if root.value == target:
+        return True
+    if root.value < target:
+        return search_BST(root.right)
+    return search_BST(root.left)
