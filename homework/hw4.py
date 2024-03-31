@@ -70,7 +70,7 @@ def tree_info(root):
         if root.right is None and root.left is not None:
             return False
         if root.left is None and root.right is not None:
-            return True
+            return False
         return is_full(root.left) and is_full(root.right)
 
     def is_balanced(root):
