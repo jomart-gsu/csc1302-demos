@@ -6,9 +6,11 @@ def question1(arr):
         [7,8,9]      [9,6,3]
     ]
     """
+    # get size of the array
     num_rows = len(arr)
     num_cols = len(arr[0])
 
+    # create an empty copy of the array (all zeroes)
     result = []
     for i in range(num_rows):
         row = []
