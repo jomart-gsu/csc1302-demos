@@ -15,7 +15,7 @@ def do_something_else():
         for i in range(3):
             l.append(x / i)
         return len(l)
-    except ZeroDivisionError e:
+    except ZeroDivisionError as e:
         print("Gonna")
         raise e
     finally:
